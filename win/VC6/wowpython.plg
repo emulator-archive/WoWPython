@@ -1,0 +1,291 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: game - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP1D7.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "..\..\src\shared" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"game___Win32_Release/game.pch" /YX /Fo"game___Win32_Release/" /Fd"game___Win32_Release/" /FD /c 
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\AuraHandler.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\CharacterHandler.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\ChatHandler.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\Combat.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\Group.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\GroupHandler.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\ItemHandler.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\MiscHandler.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\MovementHandler.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\NPCHandler.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\PetHandler.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\QueryHandler.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\QuestHandler.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\SkillHandler.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\SpellHandler.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\TaxiHandler.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\Character.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\GameObject.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\Item.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\Object.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\ObjectMgr.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\Unit.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\GameClient.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\WorldServer.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\Level0.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\Level1.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\Level2.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\game\Level3.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP1D7.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP1D8.tmp" with contents
+[
+/nologo /out:"game___Win32_Release\game.lib" 
+".\game___Win32_Release\AuraHandler.obj"
+".\game___Win32_Release\CharacterHandler.obj"
+".\game___Win32_Release\ChatHandler.obj"
+".\game___Win32_Release\Combat.obj"
+".\game___Win32_Release\Group.obj"
+".\game___Win32_Release\GroupHandler.obj"
+".\game___Win32_Release\ItemHandler.obj"
+".\game___Win32_Release\MiscHandler.obj"
+".\game___Win32_Release\MovementHandler.obj"
+".\game___Win32_Release\NPCHandler.obj"
+".\game___Win32_Release\PetHandler.obj"
+".\game___Win32_Release\QueryHandler.obj"
+".\game___Win32_Release\QuestHandler.obj"
+".\game___Win32_Release\SkillHandler.obj"
+".\game___Win32_Release\SpellHandler.obj"
+".\game___Win32_Release\TaxiHandler.obj"
+".\game___Win32_Release\Character.obj"
+".\game___Win32_Release\GameObject.obj"
+".\game___Win32_Release\Item.obj"
+".\game___Win32_Release\Object.obj"
+".\game___Win32_Release\ObjectMgr.obj"
+".\game___Win32_Release\Unit.obj"
+".\game___Win32_Release\GameClient.obj"
+".\game___Win32_Release\WorldServer.obj"
+".\game___Win32_Release\Level0.obj"
+".\game___Win32_Release\Level1.obj"
+".\game___Win32_Release\Level2.obj"
+".\game___Win32_Release\Level3.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP1D8.tmp"
+<h3>Output Window</h3>
+Compiling...
+AuraHandler.cpp
+CharacterHandler.cpp
+ChatHandler.cpp
+Combat.cpp
+Group.cpp
+GroupHandler.cpp
+ItemHandler.cpp
+MiscHandler.cpp
+MovementHandler.cpp
+NPCHandler.cpp
+PetHandler.cpp
+QueryHandler.cpp
+QuestHandler.cpp
+SkillHandler.cpp
+SpellHandler.cpp
+TaxiHandler.cpp
+Character.cpp
+GameObject.cpp
+Item.cpp
+Object.cpp
+ObjectMgr.cpp
+Unit.cpp
+GameClient.cpp
+WorldServer.cpp
+Level0.cpp
+Level1.cpp
+Level2.cpp
+Level3.cpp
+Creating library...
+<h3>
+--------------------Configuration: realmlist - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP1D9.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "..\..\src\shared" /I "..\..\src\game" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"realmlist___Win32_Release/realmlist.pch" /YX /Fo"realmlist___Win32_Release/" /Fd"realmlist___Win32_Release/" /FD /c 
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\realmlist\RealmClient.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\realmlist\RealmListSrv.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP1D9.tmp" 
+Creating command line "link.exe -lib /nologo /out:"realmlist___Win32_Release\realmlist.lib"  ".\realmlist___Win32_Release\RealmClient.obj" ".\realmlist___Win32_Release\RealmListSrv.obj" "
+<h3>Output Window</h3>
+Compiling...
+RealmClient.cpp
+RealmListSrv.cpp
+Creating library...
+<h3>
+--------------------Configuration: redirect - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP1DA.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "..\..\src\shared" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"redirect___Win32_Release/redirect.pch" /YX /Fo"redirect___Win32_Release/" /Fd"redirect___Win32_Release/" /FD /c 
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\redirect\RedirectorSrv.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP1DA.tmp" 
+Creating command line "link.exe -lib /nologo /out:"redirect___Win32_Release\redirect.lib"  ".\redirect___Win32_Release\RedirectorSrv.obj" "
+<h3>Output Window</h3>
+Compiling...
+RedirectorSrv.cpp
+Creating library...
+<h3>
+--------------------Configuration: shared - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP1DB.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "..\..\dep\inc\mysql" /I "..\..\src\shared" /I "..\..\src\game" /I "..\..\src\realmlist" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"shared___Win32_Release/shared.pch" /YX /Fo"shared___Win32_Release/" /Fd"shared___Win32_Release/" /FD /c 
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\Database.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\DatabaseInterface.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\lua\lapi.c"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\lua\lcode.c"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\lua\ldebug.c"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\lua\ldo.c"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\lua\ldump.c"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\lua\lfunc.c"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\lua\lgc.c"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\lua\llex.c"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\lua\lmem.c"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\lua\lobject.c"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\lua\lopcodes.c"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\lua\lparser.c"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\lua\lstate.c"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\lua\lstring.c"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\lua\ltable.c"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\lua\ltests.c"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\lua\ltm.c"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\lua\lundump.c"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\lua\lvm.c"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\lua\lzio.c"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\Script.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\Threads.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\Network.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\NetworkInterface.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\Client.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\Server.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\UserAccount.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\Log.cpp"
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\shared\MemoryLeaks.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP1DB.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP1DC.tmp" with contents
+[
+/nologo /out:"shared___Win32_Release\shared.lib" 
+".\shared___Win32_Release\Database.obj"
+".\shared___Win32_Release\DatabaseInterface.obj"
+".\shared___Win32_Release\lapi.obj"
+".\shared___Win32_Release\lcode.obj"
+".\shared___Win32_Release\ldebug.obj"
+".\shared___Win32_Release\ldo.obj"
+".\shared___Win32_Release\ldump.obj"
+".\shared___Win32_Release\lfunc.obj"
+".\shared___Win32_Release\lgc.obj"
+".\shared___Win32_Release\llex.obj"
+".\shared___Win32_Release\lmem.obj"
+".\shared___Win32_Release\lobject.obj"
+".\shared___Win32_Release\lopcodes.obj"
+".\shared___Win32_Release\lparser.obj"
+".\shared___Win32_Release\lstate.obj"
+".\shared___Win32_Release\lstring.obj"
+".\shared___Win32_Release\ltable.obj"
+".\shared___Win32_Release\ltests.obj"
+".\shared___Win32_Release\ltm.obj"
+".\shared___Win32_Release\lundump.obj"
+".\shared___Win32_Release\lvm.obj"
+".\shared___Win32_Release\lzio.obj"
+".\shared___Win32_Release\Script.obj"
+".\shared___Win32_Release\Threads.obj"
+".\shared___Win32_Release\Network.obj"
+".\shared___Win32_Release\NetworkInterface.obj"
+".\shared___Win32_Release\Client.obj"
+".\shared___Win32_Release\Server.obj"
+".\shared___Win32_Release\UserAccount.obj"
+".\shared___Win32_Release\Log.obj"
+".\shared___Win32_Release\MemoryLeaks.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP1DC.tmp"
+<h3>Output Window</h3>
+Compiling...
+Database.cpp
+DatabaseInterface.cpp
+lapi.c
+lcode.c
+ldebug.c
+ldo.c
+ldump.c
+lfunc.c
+lgc.c
+llex.c
+lmem.c
+lobject.c
+lopcodes.c
+lparser.c
+lstate.c
+lstring.c
+ltable.c
+ltests.c
+ltm.c
+lundump.c
+lvm.c
+lzio.c
+Script.cpp
+Threads.cpp
+Network.cpp
+NetworkInterface.cpp
+Client.cpp
+Server.cpp
+UserAccount.cpp
+Log.cpp
+MemoryLeaks.cpp
+Creating library...
+<h3>
+--------------------Configuration: wowpython - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP1DD.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "..\..\src\realmlist" /I "..\..\src\redirect" /I "..\..\src\game" /I "..\..\src\shared" /I "..\..\src\wowpython" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\Pulpit\wowpython-0.10.1.0-src\wowpython\src\wowpython\Main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP1DD.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP1DE.tmp" with contents
+[
+libmySQL.lib ws2_32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"..\..\bin\Release/wowpython.pdb" /machine:I386 /out:"..\..\bin\Release/wowpython.exe" /libpath:"..\..\dep\lib\release" 
+".\Release\Main.obj"
+".\game___Win32_Release\game.lib"
+".\realmlist___Win32_Release\realmlist.lib"
+".\redirect___Win32_Release\redirect.lib"
+".\shared___Win32_Release\shared.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP1DE.tmp"
+<h3>Output Window</h3>
+Compiling...
+Main.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"..\..\bin\Release/wowpython.bsc"  ".\Release\Main.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP1E0.bat" with contents
+[
+@echo off
+copy ..\..\dep\lib\release\*.dll ..\..\bin\release
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP1E0.bat"
+
+..\..\dep\lib\release\libmySQL.dll
+Liczba skopiowanych plik¢w:         1.
+
+
+
+<h3>Results</h3>
+wowpython.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

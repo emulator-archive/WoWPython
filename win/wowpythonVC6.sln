@@ -1,0 +1,49 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "game", "VC6\game.vcproj", "{7EE3082D-FAA8-4EE7-9727-04367D55639C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "realmlist", "VC6\realmlist.vcproj", "{D0FEA0A5-8D72-4B96-AEFC-2795784B0811}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "redirect", "VC6\redirect.vcproj", "{F1281D62-2FFD-4DEB-A1DB-169EDBD97475}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared", "VC6\shared.vcproj", "{0865B02B-7448-41E1-AE7A-3EF731516BD8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wowpython", "VC6\wowpython.vcproj", "{A821695F-77DF-4243-9BA3-E25FF1D3204A}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{A821695F-77DF-4243-9BA3-E25FF1D3204A}.0 = {0865B02B-7448-41E1-AE7A-3EF731516BD8}
+		{A821695F-77DF-4243-9BA3-E25FF1D3204A}.1 = {F1281D62-2FFD-4DEB-A1DB-169EDBD97475}
+		{A821695F-77DF-4243-9BA3-E25FF1D3204A}.2 = {D0FEA0A5-8D72-4B96-AEFC-2795784B0811}
+		{A821695F-77DF-4243-9BA3-E25FF1D3204A}.3 = {7EE3082D-FAA8-4EE7-9727-04367D55639C}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{7EE3082D-FAA8-4EE7-9727-04367D55639C}.Debug.ActiveCfg = Debug|Win32
+		{7EE3082D-FAA8-4EE7-9727-04367D55639C}.Debug.Build.0 = Debug|Win32
+		{7EE3082D-FAA8-4EE7-9727-04367D55639C}.Release.ActiveCfg = Release|Win32
+		{7EE3082D-FAA8-4EE7-9727-04367D55639C}.Release.Build.0 = Release|Win32
+		{D0FEA0A5-8D72-4B96-AEFC-2795784B0811}.Debug.ActiveCfg = Debug|Win32
+		{D0FEA0A5-8D72-4B96-AEFC-2795784B0811}.Debug.Build.0 = Debug|Win32
+		{D0FEA0A5-8D72-4B96-AEFC-2795784B0811}.Release.ActiveCfg = Release|Win32
+		{D0FEA0A5-8D72-4B96-AEFC-2795784B0811}.Release.Build.0 = Release|Win32
+		{F1281D62-2FFD-4DEB-A1DB-169EDBD97475}.Debug.ActiveCfg = Debug|Win32
+		{F1281D62-2FFD-4DEB-A1DB-169EDBD97475}.Debug.Build.0 = Debug|Win32
+		{F1281D62-2FFD-4DEB-A1DB-169EDBD97475}.Release.ActiveCfg = Release|Win32
+		{F1281D62-2FFD-4DEB-A1DB-169EDBD97475}.Release.Build.0 = Release|Win32
+		{0865B02B-7448-41E1-AE7A-3EF731516BD8}.Debug.ActiveCfg = Debug|Win32
+		{0865B02B-7448-41E1-AE7A-3EF731516BD8}.Debug.Build.0 = Debug|Win32
+		{0865B02B-7448-41E1-AE7A-3EF731516BD8}.Release.ActiveCfg = Release|Win32
+		{0865B02B-7448-41E1-AE7A-3EF731516BD8}.Release.Build.0 = Release|Win32
+		{A821695F-77DF-4243-9BA3-E25FF1D3204A}.Debug.ActiveCfg = Debug|Win32
+		{A821695F-77DF-4243-9BA3-E25FF1D3204A}.Debug.Build.0 = Debug|Win32
+		{A821695F-77DF-4243-9BA3-E25FF1D3204A}.Release.ActiveCfg = Release|Win32
+		{A821695F-77DF-4243-9BA3-E25FF1D3204A}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
